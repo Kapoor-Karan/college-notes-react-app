@@ -1,0 +1,12 @@
+.ele{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+}
+div p{
+    display: inline;
+    padding-right: 15px;
+}
+div button{
+    padding:5px;
+}

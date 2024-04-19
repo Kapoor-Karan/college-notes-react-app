@@ -4,8 +4,10 @@ function Form(props) {
     const [note,setNote]=useState("")
     function addNote(e){
         e.preventDefault();
-        props.fun(note);
-        setNote("");
+        if(note.length>0){
+            props.fun(note);
+            setNote("");
+        }  
     }
   return (
     <>
